@@ -130,6 +130,23 @@
         background: #131313;
     }
 
+    #navbar__logo {
+        background-color: #8d8d8d;
+        background-image: linear-gradient(to top, #ff0844 0%, #ec8768 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2.66rem;
+        
+    }
+
     .navbar__menu.active {
         background: #2e2e2e;
         top: 100%;
