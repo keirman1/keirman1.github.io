@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@325&display=swap');
 
 * {
-    color: rgb(179, 172, 172);
+    color: rgb(201, 201, 201);
     font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover auto;
+    
     
     
     
 }
 
 
+body {
+    background-color: #2a2a2a;
+}
+
 .navbar {
-    background: #444444;
+    background: #2a2a2a;
     height: 79px;
     display: flex;
     justify-content: center;
@@ -130,22 +133,7 @@
         background: #131313;
     }
 
-    #navbar__logo {
-        background-color: #8d8d8d;
-        background-image: linear-gradient(to top, #ff0844 0%, #ec8768 100%);
-        background-size: 100%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        text-decoration: none;
-        font-size: 2.66rem;
-        
-    }
+    
 
     .navbar__menu.active {
         background: #2e2e2e;
@@ -158,6 +146,9 @@
     }
 
     #navbar__logo {
+        background-color: #8d8d8d;
+        background-image: linear-gradient(to top, #ff0844 0%, #ec8768 100%);
+        background-size: 100%;
         padding: 25px;
     }
 
@@ -221,6 +212,7 @@
     top: 20px;
     left: -20px;
     max-height: fit-content;
+    
 }
 
 .main__container {
