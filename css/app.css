@@ -24,6 +24,10 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+
+    border: 1px solid rgba(104, 104, 104, 0);
+    /* border-radius: 10px 140px 30px 140px; */
+    border-radius: 25px;
 }
 
 .navbar__container {
